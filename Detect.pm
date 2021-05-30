@@ -9,7 +9,7 @@ use File::Which qw(which);
 
 Readonly::Array our @EXPORT_OK => qw(detect_djvu_chunk detect_djvu_file);
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 sub detect_djvu_chunk {
 	my ($file, $chunk_name) = @_;
@@ -189,6 +189,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.02
+0.03
 
 =cut
