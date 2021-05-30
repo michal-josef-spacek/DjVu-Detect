@@ -20,6 +20,7 @@ Makefile.PL
 MANIFEST			This list of files
 META.yml
 README
+SIGNATURE
 t/data/11a7ffc0-c61e-11e6-ac1c-001018b5eb5c.djvu
 t/data/bad.djvu
 t/DjVu-Detect/01-use.t
