@@ -27,6 +27,5 @@ t/DjVu-Detect/01-use.t
 t/DjVu-Detect/02-version.t
 t/DjVu-Detect/03-detect_djvu_chunk.t
 t/DjVu-Detect/04-detect_djvu_file.t
-TODO
 xt/DjVu-Detect/01-pod_coverage.t
 xt/DjVu-Detect/02-pod.t
