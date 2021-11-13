@@ -1,4 +1,4 @@
-0.03
+0.03 2021-11-13T12:35:10+01:00
  - Add link to File::Find::Rule::DjVu in doc.
  - Add two tests.
  - Skip TODO file from dist.
