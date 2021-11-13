@@ -166,6 +166,16 @@ L<Error::Pure>,
 L<Exporter>,
 L<File::Which>.
 
+=head1 SEE ALSO
+
+=over
+
+=item L<File::Find::Rule::DjVu>
+
+Common rules for searching DjVu files.
+
+=back
+
 =head1 REPOSITORY
 
 L<https://github.com/michal-josef-spacek/DjVu-Detect>

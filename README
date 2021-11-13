@@ -99,6 +99,10 @@ EXAMPLE2
 DEPENDENCIES
     Error::Pure, Exporter, File::Which.
 
+SEE ALSO
+    File::Find::Rule::DjVu
+        Common rules for searching DjVu files.
+
 REPOSITORY
     <https://github.com/michal-josef-spacek/DjVu-Detect>
 
