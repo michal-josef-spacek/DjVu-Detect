@@ -1,4 +1,5 @@
 0.04
+ - Rewrite to use Alien::DjVuLibre.
  - Update Module::Install to 1.21 version.
  - Update copyright years.
 

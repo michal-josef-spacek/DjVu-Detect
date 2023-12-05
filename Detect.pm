@@ -4,8 +4,9 @@ use base qw(Exporter);
 use strict;
 use warnings;
 
+use Alien::DjVuLibre;
 use Error::Pure qw(err);
-use File::Which qw(which);
+use File::Spec::Functions qw(catfile);
 
 Readonly::Array our @EXPORT_OK => qw(detect_djvu_chunk detect_djvu_file);
 
@@ -14,9 +15,8 @@ our $VERSION = 0.04;
 sub detect_djvu_chunk {
 	my ($file, $chunk_name) = @_;
 
-	# TODO Rewrite to better method.
-	my $djvudump = which('djvudump');
-	if (! $djvudump) {
+	my $djvudump = catfile(Alien::DjVuLibre->bin_dir, 'djvudump');
+	if (! -e $djvudump) {
 		err "Program 'djvudump' doesn't exists.";
 	}
 
@@ -162,9 +162,10 @@ Returns 1/0.
 
 =head1 DEPENDENCIES
 
+L<Alien::DjVuLibre>,
 L<Error::Pure>,
 L<Exporter>,
-L<File::Which>.
+L<File::Spec::Functions>.
 
 =head1 SEE ALSO
 

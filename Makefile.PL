@@ -4,6 +4,8 @@ use warnings;
 
 use inc::Module::Install;
 
+$ENV{'ALIEN_DJVULIBRE_PROBE_TOOLS'} = 'djvudump';
+
 # Definition.
 abstract 'Detect DjVu file';
 author 'Michal Josef Spacek <skim@cpan.org>';
@@ -18,9 +20,10 @@ name 'DjVu-Detect';
 perl_version 5.006002;
 readme_from 'Detect.pm';
 recursive_author_tests('xt');
+requires 'Alien::DjVuLibre' => 0.05;
 requires 'Error::Pure' => 0.15;
 requires 'Exporter' => 0;
-requires 'File::Which' => 0;
+requires 'File::Spec::Functions' => 0;
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/DjVu-Detect/issues';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/DjVu-Detect';
 resources 'repository' => 'git://github.com/michal-josef-spacek/DjVu-Detect';
