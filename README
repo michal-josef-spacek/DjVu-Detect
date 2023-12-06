@@ -97,7 +97,7 @@ EXAMPLE2
      # Usage: __SCRIPT__ file
 
 DEPENDENCIES
-    Error::Pure, Exporter, File::Which.
+    Alien::DjVuLibre, Error::Pure, Exporter, File::Spec::Functions.
 
 SEE ALSO
     File::Find::Rule::DjVu
