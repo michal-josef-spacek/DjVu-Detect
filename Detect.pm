@@ -101,6 +101,8 @@ Returns 1/0.
 
 =head1 EXAMPLE1
 
+=for comment filename=detect_djvu_file_on_djvu.pl
+
  use strict;
  use warnings;
 
@@ -134,6 +136,8 @@ Returns 1/0.
  # File '%s' is DjVu file.
 
 =head1 EXAMPLE2
+
+=for comment filename=detect_djvu_file.pl
 
  use strict;
  use warnings;

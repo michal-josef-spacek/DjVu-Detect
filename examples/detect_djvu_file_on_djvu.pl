@@ -30,4 +30,4 @@ if ($is_djvu) {
 }
 
 # Output like:
-# File '%s' isn't DjVu file.
+# File '%s' is DjVu file.
