@@ -131,7 +131,7 @@ Returns 1/0.
  }
 
  # Output like:
- # File '%s' isn't DjVu file.
+ # File '%s' is DjVu file.
 
 =head1 EXAMPLE2
 

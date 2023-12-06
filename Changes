@@ -1,4 +1,5 @@
 0.05
+ - Fix example in doc.
 
 0.04 2023-12-05T14:33:37+01:00
  - Rewrite to use Alien::DjVuLibre.

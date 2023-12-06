@@ -68,7 +68,7 @@ EXAMPLE1
      }
 
      # Output like:
-     # File '%s' isn't DjVu file.
+     # File '%s' is DjVu file.
 
 EXAMPLE2
      use strict;
